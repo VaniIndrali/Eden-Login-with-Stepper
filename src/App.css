@@ -1,38 +1,33 @@
 .App {
-  text-align: center;
+	/* text-align: center; */
+	margin-top: 3.75rem;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 2.5rem;
+	width: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Companyname {
+	margin: 0;
+	margin-left: 0.313rem;
+	margin-bottom: 2.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.StepperContainer-0-2-1 {
+	align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.stepperClass {
+	border-image: linear-gradient(45deg, indigo 0 50%, white 50% 100%) 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.StepButton-0-2-4:disabled {
+	border: solid;
+	border-color: #f2f2f2;
 }
+
+/* .Connector-d7-0-2-27,
+.Connector-d11-0-2-35 {
+	border-color: #d9d9d9 !important;
+} */
