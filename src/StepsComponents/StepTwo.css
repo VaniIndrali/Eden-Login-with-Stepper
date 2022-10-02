@@ -1,5 +1,6 @@
 .mainText {
 	margin-top: 3.125rem;
+	padding: 0;
 }
 
 .subText {
@@ -18,7 +19,7 @@
 	align-items: center;
 }
 
-.Connector-d3-0-2-19:not(.active) {
+.Connector-d7-0-2-27:not(.active):any-link {
 	border-image: linear-gradient(
 			45deg,
 			#744ab7 0 50%,
@@ -27,6 +28,22 @@
 		1;
 }
 
-.Connector-d3-0-2-19.active {
-	border-color: #744ab7 !important;
+.text-optional {
+	color: grey;
+}
+
+#workspaceurl,
+#workspaceurlexample {
+	float: left;
+	margin-bottom: 1rem;
+}
+
+#workspaceurlexample {
+	width: 37%;
+	border-radius: 0.25rem 0 0 0.25rem;
+}
+
+#workspaceurl {
+	width: 63%;
+	border-radius: 0 0.25rem 0.25rem 0;
 }

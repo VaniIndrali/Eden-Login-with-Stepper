@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { Stepper, Step } from "react-form-stepper";
 import { StepOne } from "./StepsComponents/StepOne.js";
+import { StepTwo } from "./StepsComponents/StepTwo.js";
 import "./App.css";
 
 function App() {
@@ -20,9 +21,13 @@ function App() {
 		completedBgColor: "#744ab7",
 	};
 
+	const performStepChange = () => {
+		setStepValue(stepValue + 1);
+	};
+
 	const getdata = (value) => {
 		setDisplayName(value);
-		setStepValue(1);
+		performStepChange();
 	};
 
 	return (
@@ -43,6 +48,7 @@ function App() {
 						connectorStateColors="true"
 						className="stepperClass"
 					>
+						{/* try this - setStepValue(stepValue+1); */}
 						<Step
 							onClick={() => setStepValue(0)}
 							styleConfig={styleConfigCss}
@@ -62,8 +68,16 @@ function App() {
 					</Stepper>
 
 					{stepValue === 0 && <StepOne onSubmit={getdata} />}
+					{stepValue === 1 && (
+						<div className="row d-flex justify-content-center">
+							<h3 className="text-center mainText col-12">
+								Let's set up a home for all your work
+							</h3>
+							<StepTwo onSubmit={performStepChange} />
+						</div>
+					)}
 					{/* below code is placeholder for next screen*/}
-					{stepValue === 1 && <h1>{displayName}</h1>}
+					{stepValue === 2 && <h1>{displayName}</h1>}
 				</div>
 			</div>
 		</div>

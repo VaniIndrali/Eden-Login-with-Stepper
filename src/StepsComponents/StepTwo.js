@@ -1,25 +1,17 @@
-import { React, useState } from "react";
-import "./StepOne.css";
+import { React } from "react";
+import "./StepTwo.css";
 
-export const StepOne = (props) => {
-	const [displayName, setDisplayName] = useState("");
-
-	const handleChange = (e) => {
-		setDisplayName(e.target.value);
-	};
+export const StepTwo = (props) => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
-		props.onSubmit(displayName);
+		props.onSubmit();
 	};
 
 	return (
-		<div id="loginOne">
+		<div id="loginTwo">
 			<div className="container">
-				<h2 className="text-center mainText">
-					Welcome! First things first...
-				</h2>
 				<h6 className="text-center subText">
-					You can always change them later.
+					You can always create another workspace later.
 				</h6>
 				<div
 					id="login-row"
@@ -40,36 +32,45 @@ export const StepOne = (props) => {
 							>
 								<div className="form-group">
 									<label
-										htmlFor="fullname"
+										htmlFor="workspacename"
 										className="text-left"
 									>
-										Full Name
+										Workspace Name
 									</label>
 									<br />
 									<input
 										type="text"
-										name="fullname"
-										id="fullname"
+										name="workspacename"
+										id="workspacename"
 										className="form-control"
-										placeholder="Steve Jobs"
+										placeholder="Eden"
 									/>
 								</div>
 								<div className="form-group">
 									<label
-										htmlFor="displayname"
+										htmlFor="workspaceurl"
 										className="text-left"
 									>
-										Display Name
+										Workspace URL
+									</label>{" "}
+									<label className="text-left text-optional">
+										(optional)
 									</label>
 									<br />
 									<input
 										type="text"
-										value={displayName}
-										name="displayname"
-										id="displayname"
+										name="workspaceurl_example"
+										id="workspaceurlexample"
 										className="form-control"
-										placeholder="Steve"
-										onChange={(e) => handleChange(e)}
+										placeholder="www.eden.com/"
+										disabled="disabled"
+									/>
+									<input
+										type="url"
+										name="workspaceurl"
+										id="workspaceurl"
+										className="form-control"
+										placeholder="Example"
 									/>
 								</div>
 								<div className="form-group">
@@ -89,4 +90,4 @@ export const StepOne = (props) => {
 	);
 };
 
-export default StepOne;
+export default StepTwo;
