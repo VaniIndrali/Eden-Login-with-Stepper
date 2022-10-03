@@ -44,6 +44,7 @@ export const StepTwo = (props) => {
 										id="workspacename"
 										className="form-control"
 										placeholder="Eden"
+										required
 									/>
 								</div>
 								<div className="form-group">
@@ -71,6 +72,7 @@ export const StepTwo = (props) => {
 										id="workspaceurl"
 										className="form-control"
 										placeholder="Example"
+										required
 									/>
 								</div>
 								<div className="form-group">

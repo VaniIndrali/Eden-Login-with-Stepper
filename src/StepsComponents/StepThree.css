@@ -26,7 +26,7 @@
 	text-align: center;
 }
 
-.Connector-d11-0-2-35:not(.active):not(.completed) {
+.Connector-d11-0-2-35:not(.active):not(.completed).disabled {
 	border-image: linear-gradient(
 			45deg,
 			#744ab7 0 50%,
@@ -79,7 +79,8 @@
 	margin: 0.938rem 1.25rem 0.938rem 0;
 }
 
-#btn_myself:focus {
+#btn_myself,
+#btn_team:focus {
 	outline-color: #744ab7;
 }
 

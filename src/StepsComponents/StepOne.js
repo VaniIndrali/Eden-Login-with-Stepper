@@ -52,6 +52,7 @@ export const StepOne = (props) => {
 										id="fullname"
 										className="form-control"
 										placeholder="Steve Jobs"
+										required
 									/>
 								</div>
 								<div className="form-group">
@@ -69,6 +70,8 @@ export const StepOne = (props) => {
 										id="displayname"
 										className="form-control"
 										placeholder="Steve"
+										required
+										maxlength="11"
 										onChange={(e) => handleChange(e)}
 									/>
 								</div>

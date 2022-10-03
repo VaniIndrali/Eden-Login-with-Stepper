@@ -21,7 +21,7 @@
 	text-align: center;
 }
 
-.Connector-d7-0-2-27:not(.active):not(.completed) {
+.Connector-d7-0-2-27:not(.active):not(.completed).disabled {
 	border-image: linear-gradient(
 			45deg,
 			#744ab7 0 50%,
