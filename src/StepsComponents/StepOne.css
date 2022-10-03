@@ -16,9 +16,11 @@
 	border: 0;
 	padding: 0.625rem 7.938rem;
 	align-items: center;
+	width: 100%;
+	text-align: center;
 }
 
-.Connector-d3-0-2-19:not(.active) {
+.Connector-d3-0-2-19:not(.active):not(.completed) {
 	border-image: linear-gradient(
 			45deg,
 			#744ab7 0 50%,
@@ -28,5 +30,9 @@
 }
 
 .Connector-d3-0-2-19.active {
+	border-color: #744ab7 !important;
+}
+
+.Connector-d3-0-2-19.completed {
 	border-color: #744ab7 !important;
 }

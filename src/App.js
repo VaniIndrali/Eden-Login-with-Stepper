@@ -2,6 +2,8 @@ import { React, useState } from "react";
 import { Stepper, Step } from "react-form-stepper";
 import { StepOne } from "./StepsComponents/StepOne.js";
 import { StepTwo } from "./StepsComponents/StepTwo.js";
+import { StepThree } from "./StepsComponents/StepThree.js";
+
 import "./App.css";
 
 function App() {
@@ -76,8 +78,16 @@ function App() {
 							<StepTwo onSubmit={performStepChange} />
 						</div>
 					)}
+					{stepValue === 2 && (
+						<div className="row d-flex justify-content-center">
+							<h3 className="text-center mainText col-12">
+								How are you planning to use Eden?
+							</h3>
+							<StepThree onSubmit={performStepChange} />
+						</div>
+					)}
 					{/* below code is placeholder for next screen*/}
-					{stepValue === 2 && <h1>{displayName}</h1>}
+					{stepValue === 3 && <h1>{displayName}</h1>}
 				</div>
 			</div>
 		</div>

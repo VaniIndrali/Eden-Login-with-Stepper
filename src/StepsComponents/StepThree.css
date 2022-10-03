@@ -1,3 +1,8 @@
+.team-logo {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
 .mainText {
 	margin-top: 3.125rem;
 	padding: 0;
@@ -21,7 +26,7 @@
 	text-align: center;
 }
 
-.Connector-d7-0-2-27:not(.active):not(.completed) {
+.Connector-d11-0-2-35:not(.active):not(.completed) {
 	border-image: linear-gradient(
 			45deg,
 			#744ab7 0 50%,
@@ -30,11 +35,11 @@
 		1;
 }
 
-.Connector-d7-0-2-27.active {
+.Connector-d11-0-2-35.active {
 	border-color: #744ab7 !important;
 }
 
-.Connector-d7-0-2-27.completed {
+.Connector-d11-0-2-35.completed {
 	border-color: #744ab7 !important;
 }
 
@@ -56,4 +61,37 @@
 #workspaceurl {
 	width: 63%;
 	border-radius: 0 0.25rem 0.25rem 0;
+}
+
+#btn_myself,
+#btn_team {
+	text-align: start;
+	padding: 1.25rem 0.625rem 1.25rem 1.25rem;
+	border-radius: 0.5rem;
+	border-color: rgb(189, 189, 189);
+	border-width: 0.063rem;
+	background-color: white;
+	border-style: double;
+	width: 50%;
+}
+
+#btn_myself {
+	margin: 0.938rem 1.25rem 0.938rem 0;
+}
+
+#btn_myself:focus {
+	outline-color: #744ab7;
+}
+
+.focused {
+	fill: #744ab7;
+}
+
+#btn_team {
+	margin: 0.938rem 0 0.938rem 1.25rem;
+}
+
+#btn_myself h6,
+#btn_team h6 {
+	color: grey;
 }
