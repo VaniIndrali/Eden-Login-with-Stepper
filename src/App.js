@@ -1,8 +1,9 @@
 import { React, useState } from "react";
 import { Stepper, Step } from "react-form-stepper";
-import { StepOne } from "./StepsComponents/StepOne.js";
-import { StepTwo } from "./StepsComponents/StepTwo.js";
-import { StepThree } from "./StepsComponents/StepThree.js";
+import StepOne from "./StepsComponents/StepOne.js";
+import StepTwo from "./StepsComponents/StepTwo.js";
+import StepThree from "./StepsComponents/StepThree.js";
+import StepFour from "./StepsComponents/StepFour.js";
 
 import "./App.css";
 
@@ -86,8 +87,7 @@ function App() {
 							<StepThree onSubmit={performStepChange} />
 						</div>
 					)}
-					{/* below code is placeholder for next screen*/}
-					{stepValue === 3 && <h1>{displayName}</h1>}
+					{stepValue === 3 && <StepFour displayName={displayName} />}
 				</div>
 			</div>
 		</div>
