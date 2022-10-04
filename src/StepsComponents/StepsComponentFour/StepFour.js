@@ -54,8 +54,9 @@ export const StepFour = (props) => {
 									<input
 										type="submit"
 										name="Launch Eden"
-										className="btn-bd-primary"
+										className="button"
 										value="Launch Eden"
+										id="buttonEden"
 									/>
 								</div>
 							</form>

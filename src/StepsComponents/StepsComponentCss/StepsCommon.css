@@ -7,8 +7,7 @@
 	margin-bottom: 1.875rem;
 }
 
-.btn-bd-primary {
-	font-weight: 600;
+.button {
 	color: white;
 	background-color: #744ab7;
 	border-color: #744ab7;
@@ -20,13 +19,13 @@
 	text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
 	.col-md-4 {
 		max-width: 70% !important;
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 	.form-group {
 		text-align: center;
 	}
@@ -35,11 +34,43 @@
 	}
 	#workspacename {
 		margin-right: 0.938rem;
+		width: 95%;
 	}
 	.workspace_div {
 		margin-left: 0.938rem;
 	}
 	.col-md-4 {
 		max-width: 70% !important;
+	}
+	.button {
+		padding: 0.525rem 8.938rem 0.525rem 3.938rem;
+	}
+	#btn_myself,
+	#btn_team {
+		width: 100% !important;
+		padding: 0.625rem !important;
+		text-align: center !important;
+		margin: 0 !important;
+	}
+	#btn_myself {
+		margin-bottom: 0.75rem !important;
+	}
+	.btn-group {
+		display: block !important;
+		margin-left: 0.75rem !important;
+	}
+	.displayText {
+		font-size: 1.5rem;
+	}
+	#buttonEden {
+		margin-left: -0.938rem !important;
+		text-align: center !important;
+	}
+	.workspaceText {
+		margin-top: 1.063rem;
+		margin-bottom: 0.75rem;
+	}
+	#mainTextEden {
+		margin-bottom: 0.75rem;
 	}
 }

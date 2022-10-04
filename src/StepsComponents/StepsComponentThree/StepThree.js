@@ -20,7 +20,7 @@ export const StepThree = (props) => {
 
 	return (
 		<div id="loginThree">
-			<div className="container">
+			<div className="container col-md-12 col-9">
 				<h6 className="text-center subText">
 					We'll streamline your setup experience accordingly.
 				</h6>
@@ -89,7 +89,7 @@ export const StepThree = (props) => {
 									<input
 										type="submit"
 										name="Create Workspace"
-										className="btn-bd-primary"
+										className="button"
 										value="Create Workspace"
 									/>
 								</div>

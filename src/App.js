@@ -44,7 +44,7 @@ function App() {
 				<h1 className="Companyname">Eden</h1>
 			</div>
 			<div className="row d-flex justify-content-center">
-				<div className="col-4">
+				<div className="col-md-4">
 					<Stepper
 						activeStep={stepValue}
 						connectorStyleConfig={connectorStyleConfigCss}
@@ -71,7 +71,7 @@ function App() {
 					</Stepper>
 
 					{stepValue === 0 && (
-						<div className="row d-flex justify-content-center">
+						<div className="row d-flex justify-content-center col-md-12">
 							<h2 className="text-center mainText">
 								Welcome! First things first...
 							</h2>
@@ -79,16 +79,19 @@ function App() {
 						</div>
 					)}
 					{stepValue === 1 && (
-						<div className="row d-flex justify-content-center">
-							<h3 className="text-center secondText col-12">
+						<div className="row d-flex justify-content-center col-md-12">
+							<h3 className="text-center workspaceText col-12">
 								Let's set up a home for all your work
 							</h3>
 							<StepTwo onSubmit={performStepChange} />
 						</div>
 					)}
 					{stepValue === 2 && (
-						<div className="row d-flex justify-content-center">
-							<h3 className="text-center mainText col-12">
+						<div className="row d-flex justify-content-center col-md-12">
+							<h3
+								className="text-center mainText col-12"
+								id="mainTextEden"
+							>
 								How are you planning to use Eden?
 							</h3>
 							<StepThree onSubmit={performStepChange} />

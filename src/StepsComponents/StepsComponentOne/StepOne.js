@@ -14,8 +14,8 @@ export const StepOne = (props) => {
 	};
 
 	return (
-		<div id="loginOne">
-			<div className="container">
+		<div id="loginOne d-flex justify-content-center">
+			<div className="container col-md-12 col-9">
 				<h6 className="text-center subText">
 					You can always change them later.
 				</h6>
@@ -77,7 +77,7 @@ export const StepOne = (props) => {
 									<input
 										type="submit"
 										name="Create Workspace"
-										className="btn-bd-primary"
+										className="button"
 										value="Create Workspace"
 									/>
 								</div>

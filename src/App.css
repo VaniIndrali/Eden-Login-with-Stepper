@@ -20,8 +20,17 @@ label {
 	width: 2.5rem;
 }
 
-.secondText {
-	font-size: 1.6rem;
+.workspaceText {
+	margin-top: 3.125rem;
+	padding: 0;
+	padding-bottom: 0.313rem;
+	font-size: 1.54rem;
+}
+
+#mainTextEden {
+	font-size: 1.59rem;
+	padding: 0;
+	padding-bottom: 0.313rem;
 }
 
 .Companyname {

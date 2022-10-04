@@ -10,8 +10,8 @@ export const StepTwo = (props) => {
 
 	return (
 		<div id="loginTwo">
-			<div className="container">
-				<h6 className="text-center subText">
+			<div className="container col-md-12 col-9">
+				<h6 className="text-center subText col-12">
 					You can always create another workspace later.
 				</h6>
 				<div
@@ -82,7 +82,7 @@ export const StepTwo = (props) => {
 									<input
 										type="submit"
 										name="Create Workspace"
-										className="btn-bd-primary"
+										className="button"
 										value="Create Workspace"
 									/>
 								</div>
