@@ -3,29 +3,6 @@
 	width: 1.5rem;
 }
 
-.mainText {
-	margin-top: 3.125rem;
-	padding: 0;
-}
-
-.subText {
-	color: grey;
-	margin-bottom: 1.875rem;
-}
-
-.btn-bd-primary {
-	font-weight: 600;
-	color: white;
-	background-color: #744ab7;
-	border-color: #744ab7;
-	border-radius: 0.25rem;
-	border: 0;
-	padding: 0.625rem 7.938rem;
-	align-items: center;
-	width: 100%;
-	text-align: center;
-}
-
 .Connector-d11-0-2-35:not(.active):not(.completed).disabled {
 	border-image: linear-gradient(
 			45deg,
@@ -45,22 +22,6 @@
 
 .text-optional {
 	color: grey;
-}
-
-#workspaceurl,
-#workspaceurlexample {
-	float: left;
-	margin-bottom: 1rem;
-}
-
-#workspaceurlexample {
-	width: 37%;
-	border-radius: 0.25rem 0 0 0.25rem;
-}
-
-#workspaceurl {
-	width: 63%;
-	border-radius: 0 0.25rem 0.25rem 0;
 }
 
 #btn_myself,

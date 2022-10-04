@@ -1,0 +1,45 @@
+.mainText {
+	margin-top: 3.125rem;
+}
+
+.subText {
+	color: grey;
+	margin-bottom: 1.875rem;
+}
+
+.btn-bd-primary {
+	font-weight: 600;
+	color: white;
+	background-color: #744ab7;
+	border-color: #744ab7;
+	border-radius: 0.25rem;
+	border: 0;
+	padding: 0.625rem 7.938rem;
+	align-items: center;
+	width: 100%;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.col-md-4 {
+		max-width: 70% !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.form-group {
+		text-align: center;
+	}
+	input:not(#workspaceurlexample):not(#workspaceurl) {
+		margin-left: 0.938rem;
+	}
+	#workspacename {
+		margin-right: 0.938rem;
+	}
+	.workspace_div {
+		margin-left: 0.938rem;
+	}
+	.col-md-4 {
+		max-width: 70% !important;
+	}
+}

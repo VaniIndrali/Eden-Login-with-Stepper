@@ -1,0 +1,16 @@
+.Connector-d3-0-2-19:not(.active):not(.completed) {
+	border-image: linear-gradient(
+			45deg,
+			#744ab7 0 50%,
+			rgb(189, 189, 189) 50% 100%
+		)
+		1;
+}
+
+.Connector-d3-0-2-19.active {
+	border-color: #744ab7 !important;
+}
+
+.Connector-d3-0-2-19.completed {
+	border-color: #744ab7 !important;
+}

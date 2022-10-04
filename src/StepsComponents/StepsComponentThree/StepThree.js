@@ -1,4 +1,5 @@
 import { React } from "react";
+import "../StepsComponentCss/StepsCommon.css";
 import "./StepThree.css";
 
 export const StepThree = (props) => {

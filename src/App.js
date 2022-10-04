@@ -1,9 +1,9 @@
 import { React, useState } from "react";
 import { Stepper, Step } from "react-form-stepper";
-import StepOne from "./StepsComponents/StepOne.js";
-import StepTwo from "./StepsComponents/StepTwo.js";
-import StepThree from "./StepsComponents/StepThree.js";
-import StepFour from "./StepsComponents/StepFour.js";
+import StepOne from "./StepsComponents/StepsComponentOne/StepOne.js";
+import StepTwo from "./StepsComponents/StepsComponentTwo/StepTwo.js";
+import StepThree from "./StepsComponents/StepsComponentThree/StepThree.js";
+import StepFour from "./StepsComponents/StepsComponentFour/StepFour.js";
 
 import "./App.css";
 
@@ -70,10 +70,17 @@ function App() {
 						/>
 					</Stepper>
 
-					{stepValue === 0 && <StepOne onSubmit={getdata} />}
+					{stepValue === 0 && (
+						<div className="row d-flex justify-content-center">
+							<h2 className="text-center mainText">
+								Welcome! First things first...
+							</h2>
+							<StepOne onSubmit={getdata} />
+						</div>
+					)}
 					{stepValue === 1 && (
 						<div className="row d-flex justify-content-center">
-							<h3 className="text-center mainText col-12">
+							<h3 className="text-center secondText col-12">
 								Let's set up a home for all your work
 							</h3>
 							<StepTwo onSubmit={performStepChange} />

@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import "../StepsComponentCss/StepsCommon.css";
 import "./StepOne.css";
 
 export const StepOne = (props) => {
@@ -15,9 +16,6 @@ export const StepOne = (props) => {
 	return (
 		<div id="loginOne">
 			<div className="container">
-				<h2 className="text-center mainText">
-					Welcome! First things first...
-				</h2>
 				<h6 className="text-center subText">
 					You can always change them later.
 				</h6>

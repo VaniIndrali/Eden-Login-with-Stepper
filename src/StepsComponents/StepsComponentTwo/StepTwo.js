@@ -1,4 +1,5 @@
 import { React } from "react";
+import "../StepsComponentCss/StepsCommon.css";
 import "./StepTwo.css";
 
 export const StepTwo = (props) => {
@@ -58,22 +59,24 @@ export const StepTwo = (props) => {
 										(optional)
 									</label>
 									<br />
-									<input
-										type="text"
-										name="workspaceurl_example"
-										id="workspaceurlexample"
-										className="form-control"
-										placeholder="www.eden.com/"
-										disabled="disabled"
-									/>
-									<input
-										type="url"
-										name="workspaceurl"
-										id="workspaceurl"
-										className="form-control"
-										placeholder="Example"
-										required
-									/>
+									<div className="workspace_div">
+										<input
+											type="text"
+											name="workspaceurl_example"
+											id="workspaceurlexample"
+											className="form-control"
+											placeholder="www.eden.com/"
+											disabled="disabled"
+										/>
+										<input
+											type="url"
+											name="workspaceurl"
+											id="workspaceurl"
+											className="form-control"
+											placeholder="Example"
+											required
+										/>
+									</div>
 								</div>
 								<div className="form-group">
 									<input

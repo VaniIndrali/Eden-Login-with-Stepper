@@ -27,10 +27,10 @@ export const StepFour = (props) => {
 						/>
 					</svg>
 				</div>
-				<h2 className="text-center mainText">
+				<h2 className="text-center displayText">
 					Congratulations, {displayName}!
 				</h2>
-				<h6 className="text-center subText">
+				<h6 className="text-center displaySubText">
 					You have completed onboarding, you can start using the Eden!
 				</h6>
 				<div

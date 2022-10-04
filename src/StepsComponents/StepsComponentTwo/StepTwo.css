@@ -1,26 +1,3 @@
-.mainText {
-	margin-top: 3.125rem;
-	padding: 0;
-}
-
-.subText {
-	color: grey;
-	margin-bottom: 1.875rem;
-}
-
-.btn-bd-primary {
-	font-weight: 600;
-	color: white;
-	background-color: #744ab7;
-	border-color: #744ab7;
-	border-radius: 0.25rem;
-	border: 0;
-	padding: 0.625rem 7.938rem;
-	align-items: center;
-	width: 100%;
-	text-align: center;
-}
-
 .Connector-d7-0-2-27:not(.active):not(.completed).disabled {
 	border-image: linear-gradient(
 			45deg,
@@ -49,11 +26,11 @@
 }
 
 #workspaceurlexample {
-	width: 37%;
+	width: 43%;
 	border-radius: 0.25rem 0 0 0.25rem;
 }
 
 #workspaceurl {
-	width: 63%;
+	width: 57%;
 	border-radius: 0 0.25rem 0.25rem 0;
 }
