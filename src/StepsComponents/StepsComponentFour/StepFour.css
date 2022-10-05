@@ -6,9 +6,15 @@
 
 .displayText {
 	margin-top: 1.75rem;
+	font-weight: 600;
 }
 
 .iconClass {
 	margin-top: 3.125rem;
 	text-align: center;
+}
+
+.circle_tick {
+	height: 3.5rem;
+	width: 4.1rem;
 }

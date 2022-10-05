@@ -1,5 +1,6 @@
 .mainText {
 	margin-top: 3.125rem;
+	font-weight: 600;
 }
 
 .subText {
@@ -32,6 +33,9 @@
 	input:not(#workspaceurlexample):not(#workspaceurl) {
 		margin-left: 0.938rem;
 	}
+	#workspaceurlexample {
+		text-overflow: ellipsis;
+	}
 	#workspacename {
 		margin-right: 0.938rem;
 		width: 95%;
@@ -61,6 +65,7 @@
 	}
 	.displayText {
 		font-size: 1.5rem;
+		font-weight: 600;
 	}
 	#buttonEden {
 		margin-left: -0.938rem !important;
@@ -69,6 +74,7 @@
 	.workspaceText {
 		margin-top: 1.063rem;
 		margin-bottom: 0.75rem;
+		font-weight: 600;
 	}
 	#mainTextEden {
 		margin-bottom: 0.75rem;

@@ -24,6 +24,7 @@ label {
 	padding: 0;
 	padding-bottom: 0.313rem;
 	font-size: 1.54rem;
+	font-weight: 600;
 }
 
 #mainTextEden {
@@ -36,6 +37,7 @@ label {
 	margin: 0;
 	margin-left: 0.313rem;
 	margin-bottom: 2.5rem;
+	font-weight: 900;
 }
 
 .StepperContainer-0-2-1 {
