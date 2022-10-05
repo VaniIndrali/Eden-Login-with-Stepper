@@ -6,18 +6,18 @@
 .Connector-d11-0-2-35:not(.active):not(.completed).disabled {
 	border-image: linear-gradient(
 			45deg,
-			#744ab7 0 50%,
+			#654de4 0 50%,
 			rgb(189, 189, 189) 50% 100%
 		)
 		1;
 }
 
 .Connector-d11-0-2-35.active {
-	border-color: #744ab7 !important;
+	border-color: #654de4 !important;
 }
 
 .Connector-d11-0-2-35.completed {
-	border-color: #744ab7 !important;
+	border-color: #654de4 !important;
 }
 
 .text-optional {
@@ -27,7 +27,7 @@
 #btn_myself,
 #btn_team {
 	text-align: start;
-	padding: 1.25rem 0.625rem 1.25rem 1.25rem;
+	padding: 1.25rem 0.4rem 0.5rem 0.7rem;
 	border-radius: 0.5rem;
 	border-color: rgb(189, 189, 189);
 	border-width: 0.063rem;
@@ -42,11 +42,11 @@
 
 #btn_myself,
 #btn_team:focus {
-	outline-color: #744ab7;
+	outline-color: #654de4;
 }
 
 .focused {
-	fill: #744ab7;
+	fill: #654de4;
 }
 
 #btn_team {
@@ -56,4 +56,5 @@
 #btn_myself h6,
 #btn_team h6 {
 	color: grey;
+	font-size: 0.9rem;
 }

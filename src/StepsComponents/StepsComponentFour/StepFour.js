@@ -16,8 +16,8 @@ export const StepFour = (props) => {
 						xmlns="http://www.w3.org/2000/svg"
 						width="50"
 						height="50"
-						fill="#744ab7"
-						class="bi bi-check-circle-fill"
+						fill="#654DE4"
+						className="bi bi-check-circle-fill"
 						viewBox="0 0 16 16"
 						id="check-circle"
 					>

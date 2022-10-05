@@ -42,7 +42,7 @@ export const StepThree = (props) => {
 								onSubmit={(e) => handleSubmit(e)}
 							>
 								<div className="form-group">
-									<div class="btn-group">
+									<div className="btn-group">
 										<button
 											id="btn_myself"
 											type="button"
@@ -54,7 +54,7 @@ export const StepThree = (props) => {
 												width="27"
 												height="27"
 												fill="currentColor"
-												class="bi bi-person-fill"
+												className="bi bi-person-fill"
 												viewBox="0 0 16 14"
 												id="svgPerson"
 											>

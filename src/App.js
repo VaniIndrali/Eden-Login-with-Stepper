@@ -18,10 +18,10 @@ function App() {
 
 	const styleConfigCss = {
 		size: "1.9em",
-		activeBgColor: "#744ab7",
+		activeBgColor: "#654DE4",
 		inactiveBgColor: "#ffffff",
-		inactiveTextColor: "#744ab7",
-		completedBgColor: "#744ab7",
+		inactiveTextColor: "#654DE4",
+		completedBgColor: "#654DE4",
 	};
 
 	const performStepChange = () => {
@@ -51,7 +51,6 @@ function App() {
 						connectorStateColors="true"
 						className="stepperClass"
 					>
-						{/* try this - setStepValue(stepValue+1); */}
 						<Step
 							onClick={() => setStepValue(0)}
 							styleConfig={styleConfigCss}

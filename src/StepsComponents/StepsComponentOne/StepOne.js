@@ -69,7 +69,7 @@ export const StepOne = (props) => {
 										className="form-control"
 										placeholder="Steve"
 										required
-										maxlength="11"
+										maxLength="11"
 										onChange={(e) => handleChange(e)}
 									/>
 								</div>
