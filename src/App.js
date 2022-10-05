@@ -44,7 +44,7 @@ function App() {
 				<h1 className="Companyname">Eden</h1>
 			</div>
 			<div className="row d-flex justify-content-center">
-				<div className="col-md-4">
+				<div className="col-md-4 col-6">
 					<Stepper
 						activeStep={stepValue}
 						connectorStyleConfig={connectorStyleConfigCss}
