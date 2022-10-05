@@ -1,0 +1,1081 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`On button clicks should render text accordingly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="d-flex justify-content-center"
+        >
+          <img
+            alt="logo"
+            class="App-logo"
+            src="https://i.imgur.com/CTHLh7p.jpg"
+          />
+          <h1
+            class="Companyname"
+          >
+            Eden
+          </h1>
+        </div>
+        <div
+          class="row d-flex justify-content-center"
+        >
+          <div
+            class="col-md-4"
+          >
+            <div
+              class="StepperContainer-0-2-1 stepperClass"
+              id="RFS-StepperContainer"
+            >
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d8-0-2-22 completed"
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d9-0-2-23 completed"
+                    >
+                      1
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="ConnectorContainer-0-2-10 ConnectorContainer-d6-0-2-26"
+                  id="RFS-ConnectorContainer"
+                >
+                  <span
+                    class="Connector-0-2-11 Connector-d7-0-2-27 completed"
+                    id="RFS-Connector"
+                  />
+                </div>
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d10-0-2-24 completed"
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d11-0-2-25 completed"
+                    >
+                      2
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="ConnectorContainer-0-2-10 ConnectorContainer-d8-0-2-30"
+                  id="RFS-ConnectorContainer"
+                >
+                  <span
+                    class="Connector-0-2-11 Connector-d9-0-2-31 active"
+                    id="RFS-Connector"
+                  />
+                </div>
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d12-0-2-28 active"
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d13-0-2-29 active"
+                    >
+                      3
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="ConnectorContainer-0-2-10 ConnectorContainer-d10-0-2-34"
+                  id="RFS-ConnectorContainer"
+                >
+                  <span
+                    class="Connector-0-2-11 Connector-d11-0-2-35"
+                    id="RFS-Connector"
+                  />
+                </div>
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d14-0-2-32"
+                    disabled=""
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d15-0-2-33"
+                    >
+                      4
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row d-flex justify-content-center col-md-12"
+            >
+              <h3
+                class="text-center mainText col-12"
+                id="mainTextEden"
+              >
+                How are you planning to use Eden?
+              </h3>
+              <div
+                id="loginThree"
+              >
+                <div
+                  class="container col-md-12 col-9"
+                >
+                  <h6
+                    class="text-center subText"
+                  >
+                    We'll streamline your setup experience accordingly.
+                  </h6>
+                  <div
+                    class="row justify-content-center align-items-center"
+                    id="login-row"
+                  >
+                    <div
+                      class="col-md-11"
+                      id="login-column"
+                    >
+                      <div
+                        class="col-md-12"
+                        id="login-box"
+                      >
+                        <form
+                          class="form"
+                          id="login-form"
+                        >
+                          <div
+                            class="form-group"
+                          >
+                            <div
+                              class="btn-group"
+                            >
+                              <button
+                                id="btn_myself"
+                                type="button"
+                              >
+                                <svg
+                                  class="bi bi-person-fill"
+                                  fill="currentColor"
+                                  height="27"
+                                  id="svgPerson"
+                                  viewBox="0 0 16 14"
+                                  width="27"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                                  />
+                                </svg>
+                                <h5
+                                  class="mt-2"
+                                >
+                                  For myself
+                                </h5>
+                                <h6>
+                                  Write better. Think more clearly. Stay organized.
+                                </h6>
+                              </button>
+                              <button
+                                id="btn_team"
+                                type="button"
+                              >
+                                <img
+                                  alt="team"
+                                  class="team-logo"
+                                  src="https://i.imgur.com/op4AsSO.png"
+                                />
+                                <h5
+                                  class="mt-3"
+                                >
+                                  With my team
+                                </h5>
+                                <h6>
+                                  Wikis, docs, tasks & projects, all in one place.
+                                </h6>
+                              </button>
+                            </div>
+                          </div>
+                          <div
+                            class="form-group"
+                          >
+                            <input
+                              class="button"
+                              name="Create Workspace"
+                              type="submit"
+                              value="Create Workspace"
+                            />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="d-flex justify-content-center"
+      >
+        <img
+          alt="logo"
+          class="App-logo"
+          src="https://i.imgur.com/CTHLh7p.jpg"
+        />
+        <h1
+          class="Companyname"
+        >
+          Eden
+        </h1>
+      </div>
+      <div
+        class="row d-flex justify-content-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="StepperContainer-0-2-1 stepperClass"
+            id="RFS-StepperContainer"
+          >
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d8-0-2-22 completed"
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d9-0-2-23 completed"
+                  >
+                    1
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="ConnectorContainer-0-2-10 ConnectorContainer-d6-0-2-26"
+                id="RFS-ConnectorContainer"
+              >
+                <span
+                  class="Connector-0-2-11 Connector-d7-0-2-27 completed"
+                  id="RFS-Connector"
+                />
+              </div>
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d10-0-2-24 completed"
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d11-0-2-25 completed"
+                  >
+                    2
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="ConnectorContainer-0-2-10 ConnectorContainer-d8-0-2-30"
+                id="RFS-ConnectorContainer"
+              >
+                <span
+                  class="Connector-0-2-11 Connector-d9-0-2-31 active"
+                  id="RFS-Connector"
+                />
+              </div>
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d12-0-2-28 active"
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d13-0-2-29 active"
+                  >
+                    3
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="ConnectorContainer-0-2-10 ConnectorContainer-d10-0-2-34"
+                id="RFS-ConnectorContainer"
+              >
+                <span
+                  class="Connector-0-2-11 Connector-d11-0-2-35"
+                  id="RFS-Connector"
+                />
+              </div>
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d14-0-2-32"
+                  disabled=""
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d15-0-2-33"
+                  >
+                    4
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row d-flex justify-content-center col-md-12"
+          >
+            <h3
+              class="text-center mainText col-12"
+              id="mainTextEden"
+            >
+              How are you planning to use Eden?
+            </h3>
+            <div
+              id="loginThree"
+            >
+              <div
+                class="container col-md-12 col-9"
+              >
+                <h6
+                  class="text-center subText"
+                >
+                  We'll streamline your setup experience accordingly.
+                </h6>
+                <div
+                  class="row justify-content-center align-items-center"
+                  id="login-row"
+                >
+                  <div
+                    class="col-md-11"
+                    id="login-column"
+                  >
+                    <div
+                      class="col-md-12"
+                      id="login-box"
+                    >
+                      <form
+                        class="form"
+                        id="login-form"
+                      >
+                        <div
+                          class="form-group"
+                        >
+                          <div
+                            class="btn-group"
+                          >
+                            <button
+                              id="btn_myself"
+                              type="button"
+                            >
+                              <svg
+                                class="bi bi-person-fill"
+                                fill="currentColor"
+                                height="27"
+                                id="svgPerson"
+                                viewBox="0 0 16 14"
+                                width="27"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                                />
+                              </svg>
+                              <h5
+                                class="mt-2"
+                              >
+                                For myself
+                              </h5>
+                              <h6>
+                                Write better. Think more clearly. Stay organized.
+                              </h6>
+                            </button>
+                            <button
+                              id="btn_team"
+                              type="button"
+                            >
+                              <img
+                                alt="team"
+                                class="team-logo"
+                                src="https://i.imgur.com/op4AsSO.png"
+                              />
+                              <h5
+                                class="mt-3"
+                              >
+                                With my team
+                              </h5>
+                              <h6>
+                                Wikis, docs, tasks & projects, all in one place.
+                              </h6>
+                            </button>
+                          </div>
+                        </div>
+                        <div
+                          class="form-group"
+                        >
+                          <input
+                            class="button"
+                            name="Create Workspace"
+                            type="submit"
+                            value="Create Workspace"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`renders App 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div
+          class="d-flex justify-content-center"
+        >
+          <img
+            alt="logo"
+            class="App-logo"
+            src="https://i.imgur.com/CTHLh7p.jpg"
+          />
+          <h1
+            class="Companyname"
+          >
+            Eden
+          </h1>
+        </div>
+        <div
+          class="row d-flex justify-content-center"
+        >
+          <div
+            class="col-md-4"
+          >
+            <div
+              class="StepperContainer-0-2-1 stepperClass"
+              id="RFS-StepperContainer"
+            >
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d0-0-2-6 active"
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d1-0-2-7 active"
+                    >
+                      1
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="ConnectorContainer-0-2-10 ConnectorContainer-d0-0-2-12"
+                  id="RFS-ConnectorContainer"
+                >
+                  <span
+                    class="Connector-0-2-11 Connector-d1-0-2-13"
+                    id="RFS-Connector"
+                  />
+                </div>
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d2-0-2-8"
+                    disabled=""
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d3-0-2-9"
+                    >
+                      2
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="ConnectorContainer-0-2-10 ConnectorContainer-d2-0-2-16"
+                  id="RFS-ConnectorContainer"
+                >
+                  <span
+                    class="Connector-0-2-11 Connector-d3-0-2-17"
+                    id="RFS-Connector"
+                  />
+                </div>
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d4-0-2-14"
+                    disabled=""
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d5-0-2-15"
+                    >
+                      3
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="StepContainer-0-2-2"
+                id="RFS-StepContainer"
+              >
+                <div
+                  class="ConnectorContainer-0-2-10 ConnectorContainer-d4-0-2-20"
+                  id="RFS-ConnectorContainer"
+                >
+                  <span
+                    class="Connector-0-2-11 Connector-d5-0-2-21"
+                    id="RFS-Connector"
+                  />
+                </div>
+                <div
+                  class="StepMain-0-2-3"
+                  id="RFS-StepMain"
+                >
+                  <button
+                    class="StepButton-0-2-4 StepButton-d6-0-2-18"
+                    disabled=""
+                    id="RFS-StepButton"
+                  >
+                    <span
+                      class="StepButtonContent-0-2-5 StepButtonContent-d7-0-2-19"
+                    >
+                      4
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row d-flex justify-content-center col-md-12"
+            >
+              <h2
+                class="text-center mainText"
+              >
+                Welcome! First things first...
+              </h2>
+              <div
+                id="loginOne d-flex justify-content-center"
+              >
+                <div
+                  class="container col-md-12 col-9"
+                >
+                  <h6
+                    class="text-center subText"
+                  >
+                    You can always change them later.
+                  </h6>
+                  <div
+                    class="row justify-content-center align-items-center"
+                    id="login-row"
+                  >
+                    <div
+                      class="col-md-11"
+                      id="login-column"
+                    >
+                      <div
+                        class="col-md-12"
+                        id="login-box"
+                      >
+                        <form
+                          class="form"
+                          id="login-form"
+                        >
+                          <div
+                            class="form-group"
+                          >
+                            <label
+                              class="text-left"
+                              for="fullname"
+                            >
+                              Full Name
+                            </label>
+                            <br />
+                            <input
+                              class="form-control"
+                              id="fullname"
+                              name="fullname"
+                              placeholder="Steve Jobs"
+                              required=""
+                              type="text"
+                            />
+                          </div>
+                          <div
+                            class="form-group"
+                          >
+                            <label
+                              class="text-left"
+                              for="displayname"
+                            >
+                              Display Name
+                            </label>
+                            <br />
+                            <input
+                              class="form-control"
+                              id="displayname"
+                              maxlength="11"
+                              name="displayname"
+                              placeholder="Steve"
+                              required=""
+                              type="text"
+                              value=""
+                            />
+                          </div>
+                          <div
+                            class="form-group"
+                          >
+                            <input
+                              class="button"
+                              name="Create Workspace"
+                              type="submit"
+                              value="Create Workspace"
+                            />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div
+        class="d-flex justify-content-center"
+      >
+        <img
+          alt="logo"
+          class="App-logo"
+          src="https://i.imgur.com/CTHLh7p.jpg"
+        />
+        <h1
+          class="Companyname"
+        >
+          Eden
+        </h1>
+      </div>
+      <div
+        class="row d-flex justify-content-center"
+      >
+        <div
+          class="col-md-4"
+        >
+          <div
+            class="StepperContainer-0-2-1 stepperClass"
+            id="RFS-StepperContainer"
+          >
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d0-0-2-6 active"
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d1-0-2-7 active"
+                  >
+                    1
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="ConnectorContainer-0-2-10 ConnectorContainer-d0-0-2-12"
+                id="RFS-ConnectorContainer"
+              >
+                <span
+                  class="Connector-0-2-11 Connector-d1-0-2-13"
+                  id="RFS-Connector"
+                />
+              </div>
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d2-0-2-8"
+                  disabled=""
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d3-0-2-9"
+                  >
+                    2
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="ConnectorContainer-0-2-10 ConnectorContainer-d2-0-2-16"
+                id="RFS-ConnectorContainer"
+              >
+                <span
+                  class="Connector-0-2-11 Connector-d3-0-2-17"
+                  id="RFS-Connector"
+                />
+              </div>
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d4-0-2-14"
+                  disabled=""
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d5-0-2-15"
+                  >
+                    3
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="StepContainer-0-2-2"
+              id="RFS-StepContainer"
+            >
+              <div
+                class="ConnectorContainer-0-2-10 ConnectorContainer-d4-0-2-20"
+                id="RFS-ConnectorContainer"
+              >
+                <span
+                  class="Connector-0-2-11 Connector-d5-0-2-21"
+                  id="RFS-Connector"
+                />
+              </div>
+              <div
+                class="StepMain-0-2-3"
+                id="RFS-StepMain"
+              >
+                <button
+                  class="StepButton-0-2-4 StepButton-d6-0-2-18"
+                  disabled=""
+                  id="RFS-StepButton"
+                >
+                  <span
+                    class="StepButtonContent-0-2-5 StepButtonContent-d7-0-2-19"
+                  >
+                    4
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="row d-flex justify-content-center col-md-12"
+          >
+            <h2
+              class="text-center mainText"
+            >
+              Welcome! First things first...
+            </h2>
+            <div
+              id="loginOne d-flex justify-content-center"
+            >
+              <div
+                class="container col-md-12 col-9"
+              >
+                <h6
+                  class="text-center subText"
+                >
+                  You can always change them later.
+                </h6>
+                <div
+                  class="row justify-content-center align-items-center"
+                  id="login-row"
+                >
+                  <div
+                    class="col-md-11"
+                    id="login-column"
+                  >
+                    <div
+                      class="col-md-12"
+                      id="login-box"
+                    >
+                      <form
+                        class="form"
+                        id="login-form"
+                      >
+                        <div
+                          class="form-group"
+                        >
+                          <label
+                            class="text-left"
+                            for="fullname"
+                          >
+                            Full Name
+                          </label>
+                          <br />
+                          <input
+                            class="form-control"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Steve Jobs"
+                            required=""
+                            type="text"
+                          />
+                        </div>
+                        <div
+                          class="form-group"
+                        >
+                          <label
+                            class="text-left"
+                            for="displayname"
+                          >
+                            Display Name
+                          </label>
+                          <br />
+                          <input
+                            class="form-control"
+                            id="displayname"
+                            maxlength="11"
+                            name="displayname"
+                            placeholder="Steve"
+                            required=""
+                            type="text"
+                            value=""
+                          />
+                        </div>
+                        <div
+                          class="form-group"
+                        >
+                          <input
+                            class="button"
+                            name="Create Workspace"
+                            type="submit"
+                            value="Create Workspace"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -9,7 +9,7 @@ export const StepFour = (props) => {
 	};
 
 	return (
-		<div id="loginOne">
+		<div id="loginFour">
 			<div className="container">
 				<div className="iconClass">
 					<svg

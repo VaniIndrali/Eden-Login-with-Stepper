@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders StepOne 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        id="loginOne d-flex justify-content-center"
+      >
+        <div
+          class="container col-md-12 col-9"
+        >
+          <h6
+            class="text-center subText"
+          >
+            You can always change them later.
+          </h6>
+          <div
+            class="row justify-content-center align-items-center"
+            id="login-row"
+          >
+            <div
+              class="col-md-11"
+              id="login-column"
+            >
+              <div
+                class="col-md-12"
+                id="login-box"
+              >
+                <form
+                  class="form"
+                  id="login-form"
+                >
+                  <div
+                    class="form-group"
+                  >
+                    <label
+                      class="text-left"
+                      for="fullname"
+                    >
+                      Full Name
+                    </label>
+                    <br />
+                    <input
+                      class="form-control"
+                      id="fullname"
+                      name="fullname"
+                      placeholder="Steve Jobs"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    class="form-group"
+                  >
+                    <label
+                      class="text-left"
+                      for="displayname"
+                    >
+                      Display Name
+                    </label>
+                    <br />
+                    <input
+                      class="form-control"
+                      id="displayname"
+                      maxlength="11"
+                      name="displayname"
+                      placeholder="Steve"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="form-group"
+                  >
+                    <input
+                      class="button"
+                      name="Create Workspace"
+                      type="submit"
+                      value="Create Workspace"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      id="loginOne d-flex justify-content-center"
+    >
+      <div
+        class="container col-md-12 col-9"
+      >
+        <h6
+          class="text-center subText"
+        >
+          You can always change them later.
+        </h6>
+        <div
+          class="row justify-content-center align-items-center"
+          id="login-row"
+        >
+          <div
+            class="col-md-11"
+            id="login-column"
+          >
+            <div
+              class="col-md-12"
+              id="login-box"
+            >
+              <form
+                class="form"
+                id="login-form"
+              >
+                <div
+                  class="form-group"
+                >
+                  <label
+                    class="text-left"
+                    for="fullname"
+                  >
+                    Full Name
+                  </label>
+                  <br />
+                  <input
+                    class="form-control"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Steve Jobs"
+                    required=""
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="form-group"
+                >
+                  <label
+                    class="text-left"
+                    for="displayname"
+                  >
+                    Display Name
+                  </label>
+                  <br />
+                  <input
+                    class="form-control"
+                    id="displayname"
+                    maxlength="11"
+                    name="displayname"
+                    placeholder="Steve"
+                    required=""
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="form-group"
+                >
+                  <input
+                    class="button"
+                    name="Create Workspace"
+                    type="submit"
+                    value="Create Workspace"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
